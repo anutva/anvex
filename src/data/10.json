@@ -1,0 +1,778 @@
+[
+  {
+    "id": 1,
+    "name": "A Letter to God",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 2,
+    "name": "Nelson Mandela: Long Walk to Freedom",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 3,
+    "name": "Two Stories about Flying",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 4,
+    "name": "From the Diary of Anne Frank",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 5,
+    "name": "Glimpses of India",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 6,
+    "name": "Mijbil the Otter",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 7,
+    "name": "Madam Rides the Bus",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 8,
+    "name": "The Sermon at Benares",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 9,
+    "name": "The Proposal",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-lit-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 10,
+    "name": "A Triumph of Surgery",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 11,
+    "name": "The Thief's Story",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 12,
+    "name": "The Midnight Visitor",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 13,
+    "name": "A Question of Trust",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 14,
+    "name": "Footprints without Feet",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 15,
+    "name": "The Making of a Scientist",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 16,
+    "name": "The Necklace",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 17,
+    "name": "The Hack Driver",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 18,
+    "name": "Bholi",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-eng-sup-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 19,
+    "name": "पद",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-1.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 20,
+    "name": "नेताजी का चश्मा",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-10.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 21,
+    "name": "बालगोबिन भगत",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-11.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 22,
+    "name": "मानवीय करुणा की दिव्य चमक",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-13.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 23,
+    "name": "राम-लक्ष्मण-परशुराम संवाद",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-2.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 24,
+    "name": "सवैया और कवित्त",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-3.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 25,
+    "name": "आत्मकथ्य",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-4.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 26,
+    "name": "उत्साह और अट नहीं रही",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-5.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 27,
+    "name": "यह दंतुरित मुस्कान और फसल",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-6.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 28,
+    "name": "छाया मत छूना",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-7.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 29,
+    "name": "कन्यादान",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-8.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 30,
+    "name": "संगतकार",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-lit-9.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 31,
+    "name": "माता का अँचल",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-sup-1.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 32,
+    "name": "जॉर्ज पंचम की नाक",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-sup-2.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 33,
+    "name": "साना – साना हाथ जोड़ि...",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-hin-sup-4.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 34,
+    "name": "Real Numbers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 35,
+    "name": "Circles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-10.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 36,
+    "name": "Areas Related to Circles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-11.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 37,
+    "name": "Surface Areas and Volumes",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-12.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 38,
+    "name": "Statistics",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-13.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 39,
+    "name": "Probability",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-14.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 40,
+    "name": "Polynomials",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 41,
+    "name": "Pair of Linear Equations in Two Variables",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 42,
+    "name": "Quadratic Equations",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 43,
+    "name": "Arithmetic Progressions",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 44,
+    "name": "Triangles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 45,
+    "name": "Coordinate Geometry",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-7.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 46,
+    "name": "Introduction to Trigonometry",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-8.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 47,
+    "name": "Some Applications of Trigonometry",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-9.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 48,
+    "name": "Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-mths-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 49,
+    "name": "Chemical Reactions and Equations",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 50,
+    "name": "The Human Eye and the Colourful World",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-10.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 51,
+    "name": "Electricity",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-11.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 52,
+    "name": "Magnetic Effects of Electric Current",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-12.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 53,
+    "name": "Our Environment",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-13.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 54,
+    "name": "Acids, Bases and Salts",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 55,
+    "name": "Metals and Non-metals",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 56,
+    "name": "Carbon and its Compounds",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 57,
+    "name": "Life Processes",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 58,
+    "name": "Control and Coordination",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-6.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 59,
+    "name": "How do Organisms Reproduce?",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-7.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 60,
+    "name": "Heredity and Evolution",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-8.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 61,
+    "name": "Light - Reflection and Refraction",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-9.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 62,
+    "name": "Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sci-ans.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 63,
+    "name": "Power Sharing",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-civ-1.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Civics"
+  },
+  {
+    "id": 64,
+    "name": "Federalism",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-civ-2.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Civics"
+  },
+  {
+    "id": 65,
+    "name": "Gender, Religion and Caste",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-civ-3.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Civics"
+  },
+  {
+    "id": 66,
+    "name": "Political Parties",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-civ-4.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Civics"
+  },
+  {
+    "id": 67,
+    "name": "Outcomes of Democracy",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-civ-5.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Civics"
+  },
+  {
+    "id": 68,
+    "name": "Development",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-eco-1.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 69,
+    "name": "Sectors of the Indian Economy",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-eco-2.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 70,
+    "name": "Money and Credit",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-eco-3.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 71,
+    "name": "Globalisation and the Indian Economy",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-eco-4.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 72,
+    "name": "Consumer Rights",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-eco-5.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 73,
+    "name": "Resources and Development",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-1.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 74,
+    "name": "Forest and Wildlife Resources",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-2.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 75,
+    "name": "Water Resources",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-3.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 76,
+    "name": "Agriculture",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-4.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 77,
+    "name": "Minerals and Energy Resources",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-5.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 78,
+    "name": "Manufacturing Industries",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-6.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 79,
+    "name": "Lifelines of National Economy",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-geo-7.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "Geography"
+  },
+  {
+    "id": 80,
+    "name": "The Rise of Nationalism in Europe",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-his-1.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "History"
+  },
+  {
+    "id": 81,
+    "name": "Nationalism in India",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-his-2.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "History"
+  },
+  {
+    "id": 82,
+    "name": "The Making of a Global World",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-his-3.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "History"
+  },
+  {
+    "id": 83,
+    "name": "The Age of Industrialisation",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-his-4.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "History"
+  },
+  {
+    "id": 84,
+    "name": "Print Culture and the Modern World",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-sst-his-5.pdf",
+    "category": "Social Science",
+    "date": "2025-07-27",
+    "subject": "History"
+  },
+  {
+    "id": 85,
+    "name": "Physical Education: Relation with other Subjects",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-1.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 86,
+    "name": "Effects of Physical Activities on Human Body",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-2.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 87,
+    "name": "Growth and Development during Adolescence",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-3.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 88,
+    "name": "Individual Games and Sports I",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-4.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 89,
+    "name": "Individual Games and Sports II",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-5.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 90,
+    "name": "Team Games and Sports I",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-6.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 91,
+    "name": "Team Games and Sports II",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-7.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 92,
+    "name": "Yoga for Healthy Living",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-8.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 93,
+    "name": "Dietary Considerations and Food Quality",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-9.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 94,
+    "name": "Safety Measures for Healthy Living",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-10.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 95,
+    "name": "Healthy Community Living",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-11.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 96,
+    "name": "Social Health",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-12.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  },
+  {
+    "id": 97,
+    "name": "Agencies and Awards Promoting Health, Sports and Yoga",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-10-pe-13.pdf",
+    "category": "Physical Education",
+    "date": "2025-07-27",
+    "subject": "Physical Education"
+  }
+]

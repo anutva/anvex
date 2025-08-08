@@ -3,6 +3,11 @@ export interface Message {
   role: 'user' | 'assistant';
   content: string;
   images?: string[]; // base64 encoded images
+  documents?: {
+    name: string;
+    mimeType: string;
+    data: string; // base64 encoded data
+  }[];
   timestamp: Date;
 }
 
@@ -26,10 +31,15 @@ export interface ChatRequest {
   messages: Array<{
     role: 'user' | 'assistant' | 'system';
     content: string | Array<{
-      type: 'text' | 'image_url';
+      type: 'text' | 'image_url' | 'document';
       text?: string;
       image_url?: {
         url: string;
+      };
+      document?: {
+        name: string;
+        mimeType: string;
+        data: string;
       };
     }>;
   }>;

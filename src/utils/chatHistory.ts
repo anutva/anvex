@@ -1,6 +1,6 @@
 import { ChatSession, Message } from '../types';
 
-const STORAGE_KEY = 'anusarth_chat_history';
+const STORAGE_KEY = 'anvex_chat_history';
 
 export class ChatHistoryManager {
   static saveChatSession(session: ChatSession): void {

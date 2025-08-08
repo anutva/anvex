@@ -1,17 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
-import { MessageSquare, AlertTriangle, Menu, ArrowLeft } from "lucide-react";
-import { useNavigate, useLocation } from "react-router-dom"; // Keep for the back button
+import { MessageSquare, AlertTriangle, Menu, X, Settings } from "lucide-react";
 import { ChatMessage } from "./ChatMessage";
 import { ChatInput } from "./ChatInput";
 import { ErrorBanner } from "./ErrorBanner";
 import { ChatHistory } from "./ChatHistory";
-import { OpenRouterAPI } from "../utils/openrouter";
+import { GoogleAIAPI } from "../utils/googleai";
 import { ChatHistoryManager } from "../utils/chatHistory";
-import { ANUSARTH_SYSTEM_PROMPT } from "../utils/systemPrompt";
+import { ANVEX_SYSTEM_PROMPT } from "../utils/systemPrompt";
 import { Message, ChatSession } from "../types";
-import SetupModal from "./SetupModal"; // --- IMPORT THE SETUP MODAL ---
+import SetupModal from "./SetupModal";
+import { ThemeSwitcher, MobileThemeSwitcher } from "./ThemeSwitcher";
 
-// Define the shape of the data from the setup form
 interface SetupData {
   schoolName: string;
   selectedClass: string;
@@ -20,60 +19,39 @@ interface SetupData {
 }
 
 export const ChatInterface: React.FC = () => {
-  // Back button logic - REMAINS UNCHANGED
-  const navigate = useNavigate();
-  const location = useLocation();
-  const handleGoBack = () => {
-    if (location.state?.from) {
-      navigate(location.state.from);
-    } else {
-      navigate("/");
-    }
-  };
-
-  // --- NEW STATE FOR SETUP AND MODAL ---
   const [setupData, setSetupData] = useState<SetupData | null>(null);
   const [isSetupModalOpen, setIsSetupModalOpen] = useState(false);
-
-  // Existing chat state
-  const [currentSession, setCurrentSession] = useState<ChatSession | null>(
-    null
-  );
+  const [currentSession, setCurrentSession] = useState<ChatSession | null>(null);
   const [chatSessions, setChatSessions] = useState<ChatSession[]>([]);
-  const [selectedModel] = useState("google/gemma-3-27b-it:free");
+  const [selectedModel] = useState("gemini-2.0-flash-lite");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [apiKey] = useState(import.meta.env.VITE_OPENROUTER_API_KEY || "");
+  const [apiKey] = useState(import.meta.env.VITE_GOOGLE_AI_API_KEY || "");
   const [isHistoryOpen, setIsHistoryOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  // --- CHECK FOR SETUP DATA ON INITIAL LOAD ---
   useEffect(() => {
-    const savedSetupData = localStorage.getItem("anusarSetup");
+    const savedSetupData = localStorage.getItem("anvexSetup");
     if (savedSetupData) {
       setSetupData(JSON.parse(savedSetupData));
-      setIsSetupModalOpen(false); // User is known, don't open modal
+      setIsSetupModalOpen(false);
     } else {
-      setIsSetupModalOpen(true); // User is unknown, open modal
+      setIsSetupModalOpen(true);
     }
   }, []);
 
-  // --- NEW HANDLER FOR WHEN MODAL COMPLETES ---
   const handleSetupComplete = (data: SetupData) => {
-    setSetupData(data); // Store the data in our state
-    setIsSetupModalOpen(false); // Close the modal
+    setSetupData(data);
+    setIsSetupModalOpen(false);
   };
 
-  // --- MODIFIED SEND MESSAGE FUNCTION ---
-  const sendMessage = async (content: string, images: string[] = []) => {
+  const sendMessage = async (content: string, images: string[] = [], documents: { name: string, mimeType: string, data: string }[] = []) => {
     if (!isApiKeyValid) {
-      setError("Please configure your OpenRouter API key in the .env file");
+      setError("Please configure your Google AI Studio API key in the .env file");
       return;
     }
-    // ... (rest of the validation logic)
 
-    // --- PERSONALIZE THE SYSTEM PROMPT ---
-    let personalizedSystemPrompt = ANUSARTH_SYSTEM_PROMPT;
+    let personalizedSystemPrompt = ANVEX_SYSTEM_PROMPT;
     if (setupData) {
       personalizedSystemPrompt =
         `The user's name is ${setupData.schoolName}. ` +
@@ -82,7 +60,7 @@ export const ChatInterface: React.FC = () => {
         `contextual and personalized help. For example, you can refer to common ` +
         `curriculums for that class. Always be friendly and refer to them by name if appropriate.\n\n` +
         `--- Original Prompt Begins ---\n` +
-        ANUSARTH_SYSTEM_PROMPT;
+        ANVEX_SYSTEM_PROMPT;
     }
 
     let baseSession = currentSession;
@@ -96,6 +74,7 @@ export const ChatInterface: React.FC = () => {
       role: "user",
       content,
       images: images.length > 0 ? images : undefined,
+      documents: documents.length > 0 ? documents : undefined,
       timestamp: new Date(),
     };
     const updatedSession: ChatSession = {
@@ -113,23 +92,26 @@ export const ChatInterface: React.FC = () => {
     setError(null);
 
     try {
-      const api = new OpenRouterAPI(apiKey);
+      const api = new GoogleAIAPI(apiKey);
       const systemMessage = {
         role: "system" as const,
         content: personalizedSystemPrompt,
-      }; // Use the new prompt
-      // ... (rest of the API call logic)
+      };
       const chatMessages = [
         systemMessage,
         ...updatedSession.messages.map((msg) => ({
           role: msg.role,
           content:
-            msg.images && msg.images.length > 0
+            (msg.images && msg.images.length > 0) || (msg.documents && msg.documents.length > 0)
               ? [
                   { type: "text" as const, text: msg.content },
-                  ...msg.images.map((image) => ({
+                  ...(msg.images || []).map((image) => ({
                     type: "image_url" as const,
                     image_url: { url: image },
+                  })),
+                  ...(msg.documents || []).map((doc) => ({
+                    type: "document" as const,
+                    document: doc,
                   })),
                 ]
               : msg.content,
@@ -163,8 +145,6 @@ export const ChatInterface: React.FC = () => {
     }
   };
 
-  // --- ALL OTHER FUNCTIONS REMAIN THE SAME ---
-  // (handleSendMessage, handleSendMessageWithImages, clearChat, etc.)
   useEffect(() => {
     const sessions = ChatHistoryManager.getAllSessions();
     setChatSessions(sessions);
@@ -173,28 +153,35 @@ export const ChatInterface: React.FC = () => {
       setCurrentSession(newSession);
     }
   }, [selectedModel]);
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+
   useEffect(() => {
     scrollToBottom();
   }, [currentSession?.messages]);
-  const isApiKeyValid = OpenRouterAPI.validateApiKey(apiKey);
+
+  const isApiKeyValid = GoogleAIAPI.validateApiKey(apiKey);
+
   const saveCurrentSession = (session: ChatSession) => {
     ChatHistoryManager.saveChatSession(session);
     setChatSessions(ChatHistoryManager.getAllSessions());
   };
+
   const handleNewChat = () => {
     const newSession = ChatHistoryManager.createNewSession(selectedModel);
     setCurrentSession(newSession);
     setError(null);
     setIsHistoryOpen(false);
   };
+
   const handleSessionSelect = (session: ChatSession) => {
     setCurrentSession(session);
     setError(null);
     setIsHistoryOpen(false);
   };
+
   const handleDeleteSession = (sessionId: string) => {
     ChatHistoryManager.deleteSession(sessionId);
     const updatedSessions = ChatHistoryManager.getAllSessions();
@@ -208,15 +195,40 @@ export const ChatInterface: React.FC = () => {
       }
     }
   };
+
   const handleSendMessage = async (content: string) => {
     await sendMessage(content, []);
   };
+
   const handleSendMessageWithImages = async (
     content: string,
     images: string[]
   ) => {
     await sendMessage(content, images);
   };
+
+  const handleSendMessageWithDocuments = async (
+    content: string,
+    documents: File[]
+  ) => {
+    const processedDocuments = await Promise.all(
+      documents.map(async (file) => {
+        const data = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve((reader.result as string).split(',')[1]);
+          reader.onerror = (error) => reject(error);
+          reader.readAsDataURL(file);
+        });
+        return {
+          name: file.name,
+          mimeType: file.type,
+          data,
+        };
+      })
+    );
+    await sendMessage(content, [], processedDocuments);
+  };
+
   const clearChat = () => {
     if (currentSession) {
       const clearedSession: ChatSession = {
@@ -232,13 +244,11 @@ export const ChatInterface: React.FC = () => {
   };
 
   return (
-    // We use a React fragment <> to hold both the modal and the main div
     <>
-      {/* --- RENDER THE MODAL CONDITIONALLY --- */}
       <SetupModal isOpen={isSetupModalOpen} onComplete={handleSetupComplete} />
 
-      {/* Your original chat interface JSX */}
-      <div className="h-screen flex bg-gray-50">
+      <div className="h-screen flex bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+        {/* Chat History Sidebar */}
         <ChatHistory
           sessions={chatSessions}
           currentSessionId={currentSession?.id || null}
@@ -248,137 +258,152 @@ export const ChatInterface: React.FC = () => {
           isOpen={isHistoryOpen}
           onToggle={() => setIsHistoryOpen(!isHistoryOpen)}
         />
+
+        {/* Main Chat Area */}
         <div
           className={`flex-1 flex flex-col transition-all duration-300 ${
             isHistoryOpen ? "lg:ml-80" : ""
           }`}
         >
-          <header className="bg-white border-b border-gray-200 px-6 py-4">
+          {/* Header */}
+          <header className="bg-white dark:bg-dark-card border-b border-gray-200 dark:border-dark-border px-4 sm:px-6 py-3 sm:py-4 transition-colors duration-300">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                {/* The Back Button - UNCHANGED */}
-                <button
-                  onClick={handleGoBack}
-                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-                  aria-label="Go back"
-                >
-                  <ArrowLeft className="w-5 h-5 text-gray-600" />
-                </button>
-
+              <div className="flex items-center gap-2 sm:gap-3">
+                {/* Mobile Menu Button */}
                 {!isHistoryOpen && (
                   <button
                     onClick={() => setIsHistoryOpen(true)}
-                    className="p-2 hover:bg-gray-100 rounded-lg transition-colors lg:hidden"
+                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors lg:hidden touch-manipulation"
                   >
-                    <Menu className="w-5 h-5 text-gray-600" />
+                    <Menu className="w-5 h-5 text-gray-600 dark:text-gray-400" />
                   </button>
                 )}
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center">
-                  <MessageSquare className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  {/* --- PERSONALIZED HEADER --- */}
-                  <h1 className="text-xl font-semibold text-gray-900">
-                    Anusarth.AI
-                  </h1>
-                  {setupData && (
-                    <p className="text-sm text-gray-500">
-                      Welcome, {setupData.schoolName}!
-                    </p>
-                  )}
+
+                {/* Logo & Title */}
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500 rounded-lg flex items-center justify-center">
+                    <MessageSquare className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <h1 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+                      Anvex.AI
+                    </h1>
+                    {setupData && (
+                      <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+                        Welcome, {setupData.schoolName}!
+                      </p>
+                    )}
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                {currentSession?.messages &&
-                  currentSession.messages.length > 0 && (
-                    <button
-                      onClick={clearChat}
-                      className="px-3 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
-                    >
-                      Clear Chat
-                    </button>
-                  )}
+
+              {/* Right Side Actions */}
+              <div className="flex items-center gap-2 sm:gap-4">
+                {/* Mobile Settings Button */}
+                <button
+                  onClick={() => setIsSetupModalOpen(true)}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors sm:hidden touch-manipulation"
+                  aria-label="Settings"
+                >
+                  <Settings className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+                </button>
+
+                {/* Theme Switcher */}
+                <div className="hidden sm:block">
+                  <ThemeSwitcher />
+                </div>
+                <div className="sm:hidden">
+                  <MobileThemeSwitcher />
+                </div>
+
+                {/* Clear Chat Button - Desktop Only */}
+                {currentSession?.messages && currentSession.messages.length > 0 && (
+                  <button
+                    onClick={clearChat}
+                    className="hidden sm:block px-3 py-2 text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+                  >
+                    Clear Chat
+                  </button>
+                )}
               </div>
             </div>
           </header>
+
+          {/* API Key Warning */}
           {!isApiKeyValid && (
-            <div className="bg-amber-50 border-b border-amber-200 px-6 py-4">
-              <div className="flex items-center gap-3">
-                <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0" />
-                <div>
-                  <p className="text-sm font-medium text-amber-600">
+            <div className="bg-amber-50 dark:bg-amber-900/20 border-b border-amber-200 dark:border-amber-800 px-4 sm:px-6 py-3 sm:py-4 transition-colors duration-300">
+              <div className="flex items-start sm:items-center gap-3">
+                <AlertTriangle className="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5 sm:mt-0" />
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-amber-600 dark:text-amber-400">
                     API Key Required
                   </p>
-                  <p className="text-sm text-gray-600">
-                    Please add your OpenRouter API key to the{" "}
-                    <code className="bg-gray-100 px-1 rounded">.env</code> file.
-                    Set{" "}
-                    <code className="bg-gray-100 px-1 rounded">
-                      VITE_OPENROUTER_API_KEY=your_key_here
-                    </code>
+                  <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300 mt-1">
+                    Please add your Google AI Studio API key to the{" "}
+                    <code className="bg-gray-100 dark:bg-gray-800 px-1 rounded text-xs">.env</code> file.
                   </p>
                 </div>
               </div>
             </div>
           )}
+
+          {/* Error Banner */}
           {error && (
-            <div className="px-6 py-4">
+            <div className="px-4 sm:px-6 py-3 sm:py-4">
               <ErrorBanner error={error} onDismiss={() => setError(null)} />
             </div>
           )}
-          <div className="flex-1 overflow-y-auto">
-            {(!currentSession?.messages ||
-              currentSession.messages.length === 0) &&
-            !setupData ? (
-              <div className="h-full flex items-center justify-center">
-                <p className="text-gray-500">
+
+          {/* Messages Area */}
+          <div className="flex-1 overflow-y-auto bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+            {(!currentSession?.messages || currentSession.messages.length === 0) && !setupData ? (
+              <div className="h-full flex items-center justify-center p-4">
+                <p className="text-gray-500 dark:text-gray-400">
                   Please complete the setup to begin.
                 </p>
               </div>
-            ) : !currentSession?.messages ||
-              currentSession.messages.length === 0 ? (
-              <div className="h-full flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-200 to-indigo-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <MessageSquare className="w-8 h-8 text-blue-800" />
+            ) : !currentSession?.messages || currentSession.messages.length === 0 ? (
+              <div className="h-full flex items-center justify-center p-4">
+                <div className="text-center max-w-md">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-200 to-indigo-200 dark:from-blue-800 dark:to-indigo-800 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <MessageSquare className="w-8 h-8 text-blue-800 dark:text-blue-200" />
                   </div>
-                  <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                    Namaste, {setupData?.schoolName || "friend"}! I'm
-                    Anusarth.AI
+                  <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                    Namaste, {setupData?.schoolName || "friend"}! I'm Anvex.AI
                   </h2>
-                  <p className="text-gray-500 max-w-md">
+                  <p className="text-sm sm:text-base text-gray-500 dark:text-gray-400">
                     I'm ready to help you with your studies for Class{" "}
                     {setupData?.selectedClass || ""}. Ask me anything!
                   </p>
                 </div>
               </div>
             ) : (
-              <div className="divide-y divide-gray-200">
+              <div className="divide-y divide-gray-200 dark:divide-gray-700">
                 {currentSession.messages.map((message) => (
                   <ChatMessage key={message.id} message={message} />
                 ))}
                 {isLoading && (
-                  <div className="flex gap-4 p-6 bg-white">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-600 flex items-center justify-center">
+                  <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-white dark:bg-dark-card">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-600 dark:bg-green-500 flex items-center justify-center">
                       <MessageSquare className="w-5 h-5 text-white" />
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <span className="font-medium text-gray-900">
-                          Anusarth.AI
+                        <span className="font-medium text-gray-900 dark:text-white">
+                          Anvex.AI
                         </span>
-                        <span className="text-xs text-gray-500">
+                        <span className="text-xs text-gray-500 dark:text-gray-400">
                           Thinking...
                         </span>
                       </div>
                       <div className="flex gap-1">
-                        <div className="w-2 h-2 bg-gray-600 rounded-full animate-bounce"></div>
+                        <div className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full animate-bounce"></div>
                         <div
-                          className="w-2 h-2 bg-gray-600 rounded-full animate-bounce"
+                          className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full animate-bounce"
                           style={{ animationDelay: "0.1s" }}
                         ></div>
                         <div
-                          className="w-2 h-2 bg-gray-600 rounded-full animate-bounce"
+                          className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full animate-bounce"
                           style={{ animationDelay: "0.2s" }}
                         ></div>
                       </div>
@@ -389,13 +414,37 @@ export const ChatInterface: React.FC = () => {
               </div>
             )}
           </div>
-          <ChatInput
-            onSendMessage={handleSendMessage}
-            onSendMessageWithImages={handleSendMessageWithImages}
-            isLoading={isLoading}
-            disabled={!isApiKeyValid || !setupData}
-          />
+
+          {/* Chat Input */}
+          <div className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-dark-card transition-colors duration-300">
+            <ChatInput
+              onSendMessage={handleSendMessage}
+              onSendMessageWithImages={handleSendMessageWithImages}
+              onSendMessageWithDocuments={handleSendMessageWithDocuments}
+              isLoading={isLoading}
+              disabled={!isApiKeyValid || !setupData}
+            />
+            {/* Mobile Clear Chat */}
+            {currentSession?.messages && currentSession.messages.length > 0 && (
+              <div className="sm:hidden px-4 pb-safe-bottom">
+                <button
+                  onClick={clearChat}
+                  className="w-full py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                >
+                  Clear Chat
+                </button>
+              </div>
+            )}
+          </div>
         </div>
+
+        {/* Mobile overlay when history is open */}
+        {isHistoryOpen && (
+          <div
+            className="fixed inset-0 bg-black/20 dark:bg-black/40 z-30 lg:hidden animate-fade-in"
+            onClick={() => setIsHistoryOpen(false)}
+          />
+        )}
       </div>
     </>
   );

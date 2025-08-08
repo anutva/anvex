@@ -1,0 +1,794 @@
+[
+  {
+    "id": 88,
+    "name": "Literature - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 89,
+    "name": "Literature - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 90,
+    "name": "Literature - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 91,
+    "name": "Literature - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 92,
+    "name": "Literature - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 93,
+    "name": "Literature - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 94,
+    "name": "Literature - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 95,
+    "name": "Literature - Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 96,
+    "name": "Literature - Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 97,
+    "name": "Literature - Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-10.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 98,
+    "name": "Literature - Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-11.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 99,
+    "name": "Literature - Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-12.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 100,
+    "name": "Literature - Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-13.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 101,
+    "name": "Supplementary - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 102,
+    "name": "Supplementary - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 103,
+    "name": "Supplementary - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 104,
+    "name": "Supplementary - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 105,
+    "name": "Supplementary - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 106,
+    "name": "Supplementary - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 107,
+    "name": "Maths Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 108,
+    "name": "Maths Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 109,
+    "name": "Maths Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 110,
+    "name": "Maths Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 111,
+    "name": "Maths Part 1 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 112,
+    "name": "Maths Part 1 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 113,
+    "name": "Maths Part 1 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 114,
+    "name": "Maths Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 115,
+    "name": "Maths Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 116,
+    "name": "Maths Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 117,
+    "name": "Maths Part 2 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 118,
+    "name": "Maths Part 2 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 119,
+    "name": "Maths Part 2 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 120,
+    "name": "Maths Part 2 - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-7.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 121,
+    "name": "Maths Part 2 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 122,
+    "name": "Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-1.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 123,
+    "name": "Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-2.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 124,
+    "name": "Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-3.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 125,
+    "name": "Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-4.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 126,
+    "name": "Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-5.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 127,
+    "name": "Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-6.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 128,
+    "name": "Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-7.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 129,
+    "name": "Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-8.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 130,
+    "name": "Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-9.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 131,
+    "name": "Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-10.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 132,
+    "name": "Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-11.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 133,
+    "name": "Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-12.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 134,
+    "name": "Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-13.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 135,
+    "name": "Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-1.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 136,
+    "name": "Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-2.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 137,
+    "name": "Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-3.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 138,
+    "name": "Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-4.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 139,
+    "name": "Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-5.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 140,
+    "name": "Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-6.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 141,
+    "name": "Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-7.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 142,
+    "name": "Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-8.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 143,
+    "name": "Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-9.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 144,
+    "name": "Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-10.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 145,
+    "name": "Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-11.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 146,
+    "name": "Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-12.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 147,
+    "name": "Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-13.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 148,
+    "name": "Lesson no. 14",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-14.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 149,
+    "name": "Lesson no. 15",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-15.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 150,
+    "name": "Lesson no. 16",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-16.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 151,
+    "name": "Lesson no. 17",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-hin-17.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 152,
+    "name": "Microeconomics - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-1.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 153,
+    "name": "Microeconomics - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-2.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 154,
+    "name": "Microeconomics - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-3.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 155,
+    "name": "Microeconomics - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-4.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 156,
+    "name": "Microeconomics - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-5.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 157,
+    "name": "Microeconomics - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p1-6.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 158,
+    "name": "Macroeconomics - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p2-1.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 159,
+    "name": "Macroeconomics - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p2-2.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 160,
+    "name": "Macroeconomics - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p2-3.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 161,
+    "name": "Macroeconomics - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p2-4.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 162,
+    "name": "Macroeconomics - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eco-p2-5.pdf",
+    "category": "Economics",
+    "date": "2025-07-27",
+    "subject": "Economics"
+  },
+  {
+    "id": 163,
+    "name": "Accountancy Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p1-1.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 164,
+    "name": "Accountancy Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p1-2.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 165,
+    "name": "Accountancy Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p1-3.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 166,
+    "name": "Accountancy Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p1-4.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 167,
+    "name": "Accountancy Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-1.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 168,
+    "name": "Accountancy Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-2.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 169,
+    "name": "Accountancy Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-3.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 170,
+    "name": "Accountancy Part 2 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-4.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 171,
+    "name": "Accountancy Part 2 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-5.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 172,
+    "name": "Accountancy Part 2 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-acc-p2-6.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Accountancy"
+  },
+  {
+    "id": 173,
+    "name": "Business Studies Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-1.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 174,
+    "name": "Business Studies Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-2.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 175,
+    "name": "Business Studies Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-3.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 176,
+    "name": "Business Studies Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-4.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 177,
+    "name": "Business Studies Part 1 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-5.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 178,
+    "name": "Business Studies Part 1 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-6.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 179,
+    "name": "Business Studies Part 1 - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-7.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 180,
+    "name": "Business Studies Part 1 - Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-8.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 181,
+    "name": "Business Studies Part 1 - Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-9.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 182,
+    "name": "Business Studies Part 1 - Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-10.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 183,
+    "name": "Business Studies Part 1 - Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p1-11.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 184,
+    "name": "Business Studies Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p2-1.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 185,
+    "name": "Business Studies Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p2-2.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  },
+  {
+    "id": 186,
+    "name": "Business Studies Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bst-p2-3.pdf",
+    "category": "Commerce",
+    "date": "2025-07-27",
+    "subject": "Business Studies"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "name": "The Fun They Had",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 2,
+    "name": "The Sound of Music",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 3,
+    "name": "The Little Girl",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 4,
+    "name": "A Truly Beautiful Mind",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 5,
+    "name": "The Snake and the Mirror",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 6,
+    "name": "My Childhood",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 7,
+    "name": "Packing",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 8,
+    "name": "Reach for the Top",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 9,
+    "name": "The Bond of Love",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-lit-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 10,
+    "name": "The Lost Child",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 11,
+    "name": "The Adventures of Toto",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 12,
+    "name": "Iswaran the Storyteller",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 13,
+    "name": "In the Kingdom of Fools",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 14,
+    "name": "The Happy Prince",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 15,
+    "name": "Weathering the Storm in Ersama",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 16,
+    "name": "The Last Leaf",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 17,
+    "name": "A House Is Not a Home",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 18,
+    "name": "The Accidental Tourist",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-eng-sup-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 19,
+    "name": "दो बैलों की कथा",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-1.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 20,
+    "name": "ल्हासा की ओर",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-2.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 21,
+    "name": "उपभोक्तावाद की संस्कृति",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-3.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 22,
+    "name": "साँवले सपनों की याद",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-4.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 23,
+    "name": "नाना साहब की पुत्री देवी मैना को भस्म कर दिया गया",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-5.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 24,
+    "name": "प्रेमचंद के फटे जूते",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-6.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 25,
+    "name": "मेरे बचपन के दिन",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-7.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 26,
+    "name": "एक कुत्ता और एक मैना",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-8.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 27,
+    "name": "साखियाँ एवं सबद",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-9.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 28,
+    "name": "वाख",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-10.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 29,
+    "name": "सवैये",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-11.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 30,
+    "name": "कैदी और कोकिला",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-12.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 31,
+    "name": "ग्राम श्री",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-lit-13.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 32,
+    "name": "इस जल प्रलय में",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-sup-1.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 33,
+    "name": "मेरे संग की औरतें",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-sup-2.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 34,
+    "name": "रीढ़ की हड्डी",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-hin-sup-3.pdf",
+    "category": "Hindi",
+    "date": "2025-07-27",
+    "subject": "Hindi"
+  },
+  {
+    "id": 35,
+    "name": "Number Systems",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 36,
+    "name": "Polynomials",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 37,
+    "name": "Coordinate Geometry",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 38,
+    "name": "Linear Equations in Two Variables",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 39,
+    "name": "Introduction to Euclid's Geometry",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 40,
+    "name": "Lines and Angles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 41,
+    "name": "Triangles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-7.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 42,
+    "name": "Quadrilaterals",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-8.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 43,
+    "name": "Areas of Parallelograms and Triangles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-9.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 44,
+    "name": "Circles",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-10.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 45,
+    "name": "Constructions",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-11.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 46,
+    "name": "Heron's Formula",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-12.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 47,
+    "name": "Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-mths-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 48,
+    "name": "भारतीवसन्तगीतिः",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-1.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 49,
+    "name": "स्वर्णकाकः",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-2.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 50,
+    "name": "गोदोहनम्",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-3.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 51,
+    "name": "कल्पतरूः",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-4.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 52,
+    "name": "सूक्तिमौक्तिकम्",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-5.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 53,
+    "name": "भ्रान्तो बालः",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-6.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 54,
+    "name": "प्रत्यभिज्ञानम्",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-7.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 55,
+    "name": "लौहतुला",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-8.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 56,
+    "name": "सिकतासेतुः",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-9.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 57,
+    "name": "जटायोः शौर्यम्",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sans-10.pdf",
+    "category": "Sanskrit",
+    "date": "2025-07-27",
+    "subject": "Sanskrit"
+  },
+  {
+    "id": 58,
+    "name": "Matter in Our Surroundings",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 59,
+    "name": "Is Matter Around Us Pure",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 60,
+    "name": "Atoms and Molecules",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 61,
+    "name": "Structure of the Atom",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 62,
+    "name": "The Fundamental Unit of Life",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 63,
+    "name": "Tissues",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-6.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 64,
+    "name": "Motion",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-7.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 65,
+    "name": "Force and Laws of Motion",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-8.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 66,
+    "name": "Gravitation",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-9.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 67,
+    "name": "Work and Energy",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-10.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 68,
+    "name": "Sound",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-11.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 69,
+    "name": "Improvement in Food Resources",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-12.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  },
+  {
+    "id": 70,
+    "name": "Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-9-sci-ans.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Science"
+  }
+]

@@ -5,19 +5,22 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DocumentsPage from './pages/DocumentsPage';
 import { ChatInterface } from './components/ChatInterface';
-import { Layout } from './components/layout'; // <-- Import the new Layout component
+import { Layout } from './components/Layout';
+import { ThemeProvider } from './contexts/ThemeContext';
 
 function App() {
   return (
-    <Router>
-      <Layout> {/* The Layout component now wraps your routes */}
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/documents" element={<DocumentsPage />} />
-          <Route path="/anusarth" element={<ChatInterface />} />
-        </Routes>
-      </Layout>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/documents" element={<DocumentsPage />} />
+            <Route path="/anvex" element={<ChatInterface />} />
+          </Routes>
+        </Layout>
+      </Router>
+    </ThemeProvider>
   );
 }
 

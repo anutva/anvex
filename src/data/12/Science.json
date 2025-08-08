@@ -1,0 +1,698 @@
+[
+  {
+    "id": 1,
+    "name": "Physics Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 2,
+    "name": "Physics Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 3,
+    "name": "Physics Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 4,
+    "name": "Physics Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 5,
+    "name": "Physics Part 1 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 6,
+    "name": "Physics Part 1 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-6.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 7,
+    "name": "Physics Part 1 - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-7.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 8,
+    "name": "Physics Part 1 - Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-8.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 9,
+    "name": "Physics Part 1 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p1-ans.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 10,
+    "name": "Physics Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 11,
+    "name": "Physics Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 12,
+    "name": "Physics Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 13,
+    "name": "Physics Part 2 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 14,
+    "name": "Physics Part 2 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 15,
+    "name": "Physics Part 2 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-phy-p2-6.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Physics"
+  },
+  {
+    "id": 16,
+    "name": "Chemistry Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 17,
+    "name": "Chemistry Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 18,
+    "name": "Chemistry Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 19,
+    "name": "Chemistry Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 20,
+    "name": "Chemistry Part 1 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 21,
+    "name": "Chemistry Part 1 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p1-ans.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 22,
+    "name": "Chemistry Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 23,
+    "name": "Chemistry Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 24,
+    "name": "Chemistry Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 25,
+    "name": "Chemistry Part 2 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 26,
+    "name": "Chemistry Part 2 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 27,
+    "name": "Chemistry Part 2 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-chem-p2-ans.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Chemistry"
+  },
+  {
+    "id": 28,
+    "name": "Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-1.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 29,
+    "name": "Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-2.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 30,
+    "name": "Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-3.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 31,
+    "name": "Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-4.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 32,
+    "name": "Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-5.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 33,
+    "name": "Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-6.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 34,
+    "name": "Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-7.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 35,
+    "name": "Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-8.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 36,
+    "name": "Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-9.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 37,
+    "name": "Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-10.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 38,
+    "name": "Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-11.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 39,
+    "name": "Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-12.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 40,
+    "name": "Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-bio-13.pdf",
+    "category": "Science",
+    "date": "2025-07-27",
+    "subject": "Biology"
+  },
+  {
+    "id": 41,
+    "name": "Maths Part 1 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 42,
+    "name": "Maths Part 1 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 43,
+    "name": "Maths Part 1 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 44,
+    "name": "Maths Part 1 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 45,
+    "name": "Maths Part 1 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 46,
+    "name": "Maths Part 1 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 47,
+    "name": "Maths Part 1 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p1-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 48,
+    "name": "Maths Part 2 - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-1.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 49,
+    "name": "Maths Part 2 - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-2.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 50,
+    "name": "Maths Part 2 - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-3.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 51,
+    "name": "Maths Part 2 - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-4.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 52,
+    "name": "Maths Part 2 - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-5.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 53,
+    "name": "Maths Part 2 - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-6.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 54,
+    "name": "Maths Part 2 - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-7.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 55,
+    "name": "Maths Part 2 - Answers",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-mths-p2-ans.pdf",
+    "category": "Mathematics",
+    "date": "2025-07-27",
+    "subject": "Math"
+  },
+  {
+    "id": 56,
+    "name": "Literature - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 57,
+    "name": "Literature - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 58,
+    "name": "Literature - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 59,
+    "name": "Literature - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 60,
+    "name": "Literature - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 61,
+    "name": "Literature - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 62,
+    "name": "Literature - Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-7.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 63,
+    "name": "Literature - Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-8.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 64,
+    "name": "Literature - Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-9.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 65,
+    "name": "Literature - Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-10.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 66,
+    "name": "Literature - Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-11.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 67,
+    "name": "Literature - Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-12.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 68,
+    "name": "Literature - Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-lit-13.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 69,
+    "name": "Supplementary - Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-1.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 70,
+    "name": "Supplementary - Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-2.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 71,
+    "name": "Supplementary - Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-3.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 72,
+    "name": "Supplementary - Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-4.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 73,
+    "name": "Supplementary - Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-5.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 74,
+    "name": "Supplementary - Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-eng-sup-6.pdf",
+    "category": "English",
+    "date": "2025-07-27",
+    "subject": "English"
+  },
+  {
+    "id": 75,
+    "name": "Lesson no. 1",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-1.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 76,
+    "name": "Lesson no. 2",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-2.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 77,
+    "name": "Lesson no. 3",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-3.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 78,
+    "name": "Lesson no. 4",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-4.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 79,
+    "name": "Lesson no. 5",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-5.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 80,
+    "name": "Lesson no. 6",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-6.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 81,
+    "name": "Lesson no. 7",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-7.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 82,
+    "name": "Lesson no. 8",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-8.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 83,
+    "name": "Lesson no. 9",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-9.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 84,
+    "name": "Lesson no. 10",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-10.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 85,
+    "name": "Lesson no. 11",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-11.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 86,
+    "name": "Lesson no. 12",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-12.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  },
+  {
+    "id": 87,
+    "name": "Lesson no. 13",
+    "pdfUrl": "https://pub-f40b81762f3e458ba6affa8dd8f791f7.r2.dev/cl-12-cs-13.pdf",
+    "category": "Computer Science",
+    "date": "2025-07-27",
+    "subject": "Computer Science"
+  }
+]
