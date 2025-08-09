@@ -1,0 +1,75 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Anvex"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <title>Anvex</title>
+  <defs>
+    <linearGradient id="anvex-grad" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4fc3f7" />
+      <stop offset="100%" stop-color="#7b61ff" />
+    </linearGradient>
+
+    <filter id="anvex-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#7b61ff" flood-opacity="0.12" />
+    </filter>
+
+    <filter id="anvex-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Optional backdrop -->
+  <rect
+    x="6"
+    y="6"
+    width="108"
+    height="108"
+    rx="16"
+    fill="url(#anvex-grad)"
+    opacity="0.06"
+  />
+
+  <!-- Outer A frame -->
+  <g filter="url(#anvex-shadow)">
+    <path
+      d="M60 18 L94 90 H76 L68 74 H52 L44 90 H26 L60 18 Z"
+      fill="url(#anvex-grad)"
+    />
+  </g>
+
+  <!-- Inner details -->
+  <g filter="url(#anvex-glow)">
+    <path
+      d="M60 34 L78 78 H42 L60 34 Z"
+      fill="#0b1220"
+      opacity="0.85"
+    />
+    <rect
+      x="62"
+      y="58"
+      width="20"
+      height="6"
+      rx="3"
+      fill="#7b61ff"
+      transform="rotate(-18 72 61)"
+    />
+  </g>
+
+  <!-- Finishing line -->
+  <path
+    d="M34 92 L86 92"
+    stroke="url(#anvex-grad)"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    opacity="0.7"
+  />
+</svg>
