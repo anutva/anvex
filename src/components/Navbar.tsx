@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FileSpreadsheet, Home, BookOpen, MessageSquare, Menu, X } from 'lucide-react';
+import { Home, BookOpen, MessageSquare, Menu, X } from 'lucide-react';
 import { ThemeSwitcher } from './ThemeSwitcher';
 
 const Navbar: React.FC = () => {
@@ -29,6 +29,7 @@ const Navbar: React.FC = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
               <FileSpreadsheet className="h-8 w-8 text-blue-600 dark:text-blue-400 mr-3" />
+              <img src='../src/components/anvexLogo.svg' className="h-8 w-8">
               <div>
                 <h1 className="text-xl font-bold text-gray-900 dark:text-white">
                   Anvex
