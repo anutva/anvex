@@ -3,7 +3,7 @@ import { FileSpreadsheet, Mail, Phone, MapPin, Github, Twitter, Linkedin } from 
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/anutva/anvex', label: 'GitHub' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
   ];
@@ -11,8 +11,7 @@ const Footer: React.FC = () => {
   const quickLinks = [
     { label: 'Home', href: '/' },
     { label: 'Documents', href: '/documents' },
-    { label: 'Anvex.AI', href: '/anvex' },
-    { label: 'Help Center', href: '#' },
+    { label: 'Anvex.AI', href: '/anvex' }
   ];
 
   const legalLinks = [
@@ -31,7 +30,7 @@ const Footer: React.FC = () => {
               <FileSpreadsheet className="h-8 w-8 text-blue-400 mr-3" />
               <div>
                 <h3 className="text-xl font-bold">Anvex</h3>
-                <p className="text-sm text-gray-400">Study Buddy</p>
+                <p className="text-sm text-gray-400">Study Buddy, With no noise</p>
               </div>
             </div>
             <p className="text-sm text-gray-300 mb-4 max-w-md">
@@ -88,11 +87,6 @@ const Footer: React.FC = () => {
                   Syllabus
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-sm text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                  Study Tips
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -102,18 +96,18 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center text-sm text-gray-300">
                 <Phone className="w-4 h-4 mr-2 text-blue-400 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 91184 33867</span>
               </li>
               <li className="flex items-center text-sm text-gray-300">
                 <Mail className="w-4 h-4 mr-2 text-blue-400 flex-shrink-0" />
-                <a href="mailto:support@anvex.ai" className="hover:text-white transition-colors">
-                  support@anvex.ai
+                <a href="mailto:astitvapratapsingh7@icloud.com" className="hover:text-white transition-colors">
+                  astitvapratapsingh7@icloud.com
                 </a>
               </li>
               <li className="flex items-start text-sm text-gray-300">
                 <MapPin className="w-4 h-4 mr-2 mt-0.5 text-blue-400 flex-shrink-0" />
                 <span>
-                  Bangalore, Karnataka<br />
+                  Lucknow, Uttar Pradesh<br />
                   India
                 </span>
               </li>
