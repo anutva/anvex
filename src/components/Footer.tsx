@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileSpreadsheet, Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react';
+import {  Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4">
-              <FileSpreadsheet className="h-8 w-8 text-blue-400 mr-3" />
+              <img src='/src/components/anvexLogo.svg' className="h-12 w-12 mr-3 transition-transform duration-300 ease-in-out hover:scale-110" />
               <div>
                 <h3 className="text-xl font-bold">Anvex</h3>
                 <p className="text-sm text-gray-400">Study Buddy, With no noise</p>

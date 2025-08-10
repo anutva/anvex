@@ -28,8 +28,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
-              <FileSpreadsheet className="h-8 w-8 text-blue-600 dark:text-blue-400 mr-3" />
-              <img src='../src/components/anvexLogo.svg' className="h-8 w-8">
+              <img src='/src/components/anvexLogo.svg' className="h-12 w-12 mr-3 transition-transform duration-300 ease-in-out hover:scale-110" />
               <div>
                 <h1 className="text-xl font-bold text-gray-900 dark:text-white">
                   Anvex

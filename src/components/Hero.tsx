@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Download, Eye, Users, FileText, Award, ArrowRight } from 'lucide-react';
+import { BookOpen, Download, Eye, BrainCircuit , BookOpenCheck, Award, ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const features = [
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       iconBg: 'bg-green-600 dark:bg-green-500',
     },
     {
-      icon: Users,
+      icon: BrainCircuit,
       title: 'Anvex.AI',
       description: 'The intelligent study partner that understands you. Personalized guidance to help you excel.',
       gradient: 'from-purple-50 to-violet-50 dark:from-purple-900/20 dark:to-violet-900/20',
@@ -31,21 +31,21 @@ const Hero: React.FC = () => {
   ];
 
   const stats = [
-    { value: '7', label: 'Class Levels' },
+    { value: '6-12', label: 'Class Levels' },
     { value: '8', label: 'Sections per Class' },
-    { value: '5', label: 'CBSE Schools' },
-    { value: '100+', label: 'Documents' },
+    { value: '4',label: 'CBSE Schools' },
+    { value: '900+', label: 'Documents' },
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 transition-colors duration-300">
       {/* Hero Section */}
-      <div className="relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-20 pb-16">
+      <div className=" relative overflow-hidden">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-20 pb-16">
           <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
-              Welcome to{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in flex items-center justify-center">
+              Welcome to&nbsp;
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 inline-flex items-baseline">
                 Anvex
               </span>
             </h1>
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Decorative Elements */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className=" absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 w-20 h-20 bg-blue-200 dark:bg-blue-800 rounded-full opacity-20 dark:opacity-10 animate-pulse"></div>
           <div className="absolute top-40 right-20 w-32 h-32 bg-indigo-200 dark:bg-indigo-800 rounded-full opacity-20 dark:opacity-10 animate-pulse" style={{ animationDelay: '1s' }}></div>
           <div className="absolute bottom-20 left-20 w-16 h-16 bg-purple-200 dark:bg-purple-800 rounded-full opacity-20 dark:opacity-10 animate-pulse" style={{ animationDelay: '2s' }}></div>
@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
       {/* CTA Section */}
       <div className="py-16 sm:py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <FileText className="w-12 sm:w-16 h-12 sm:h-16 text-blue-600 dark:text-blue-400 mx-auto mb-6" />
+          <BookOpenCheck className="w-12 sm:w-16 h-12 sm:h-16 text-blue-600 dark:text-blue-400 mx-auto mb-6" />
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
             Ready to Get Started?
           </h2>
