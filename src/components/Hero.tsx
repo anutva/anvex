@@ -40,46 +40,49 @@ const Hero: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 transition-colors duration-300">
       {/* Hero Section */}
-      <div className=" relative overflow-hidden">
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-20 pb-16">
-          <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in flex items-center justify-center">
-              Welcome to&nbsp;
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 inline-flex items-baseline">
-                Anvex
-              </span>
-            </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto px-4 animate-fade-in animation-delay-200">
-              Your comprehensive platform for accessing educational documents, worksheets, 
-              and study materials across all classes and subjects.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4 animate-fade-in animation-delay-400">
-              <Link
-                to="/documents"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-4 text-base sm:text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500 rounded-xl hover:from-blue-700 hover:to-indigo-700 dark:hover:from-blue-600 dark:hover:to-indigo-600 transform hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg hover:shadow-xl touch-manipulation"
-              >
-                <BookOpen className="w-5 h-5 mr-2" />
-                Access Documents
-                <ArrowRight className="w-4 h-4 ml-2 hidden sm:block" />
-              </Link>
-              <a
-                href="#features"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-4 text-base sm:text-lg font-medium text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 rounded-xl hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 shadow-md hover:shadow-lg touch-manipulation"
-              >
-                Learn More
-              </a>
+      <div className="relative overflow-hidden">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col-reverse md:flex-row items-center justify-between pt-12 sm:pt-20 pb-16">
+            {/* Text Content */}
+            <div className="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
+                Welcome to&nbsp;
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
+                  Anvex
+                </span>
+              </h1>
+              <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto md:mx-0 px-4 animate-fade-in animation-delay-200">
+                Your comprehensive platform for accessing educational documents, worksheets,
+                and study materials across all classes and subjects.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center px-4 animate-fade-in animation-delay-400">
+                <Link
+                  to="/documents"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-4 text-base sm:text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500 rounded-xl hover:from-blue-700 hover:to-indigo-700 dark:hover:from-blue-600 dark:hover:to-indigo-600 transform hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg hover:shadow-xl touch-manipulation"
+                >
+                  <BookOpen className="w-5 h-5 mr-2" />
+                  Access Documents
+                  <ArrowRight className="w-4 h-4 ml-2 hidden sm:block" />
+                </Link>
+                <a
+                  href="#features"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-4 text-base sm:text-lg font-medium text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 rounded-xl hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 shadow-md hover:shadow-lg touch-manipulation"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+
+            {/* 3D Logo Animation */}
+            <div className="md:w-1/2 flex items-center justify-center">
+              <div className="logo-3d-container">
+                <img src="/anvexLogo.svg" alt="Anvex 3D Logo" className="logo-3d" />
+              </div>
             </div>
           </div>
         </div>
-
-        {/* Decorative Elements */}
-        <div className=" absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-10 w-20 h-20 bg-blue-200 dark:bg-blue-800 rounded-full opacity-20 dark:opacity-10 animate-pulse"></div>
-          <div className="absolute top-40 right-20 w-32 h-32 bg-indigo-200 dark:bg-indigo-800 rounded-full opacity-20 dark:opacity-10 animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute bottom-20 left-20 w-16 h-16 bg-purple-200 dark:bg-purple-800 rounded-full opacity-20 dark:opacity-10 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        </div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white dark:from-gray-900 to-transparent"></div>
       </div>
-
       {/* Features Section */}
       <div id="features" className="py-16 sm:py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
