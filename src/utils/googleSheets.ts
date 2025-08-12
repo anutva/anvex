@@ -8,8 +8,9 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxUWGo3VbNXeh
 interface LogDataPayload {
   schoolName: string;
   selectedClass: string;
-  selectedSection: string;
+  selectedSection:string;
   selectedSchool: string;
+  userEmail?: string;
 }
 
 export const logToGoogleSheets = async (data: LogDataPayload) => {
@@ -17,7 +18,7 @@ export const logToGoogleSheets = async (data: LogDataPayload) => {
     const payload = {
       ...data,
       userAgent: navigator.userAgent,
-      ip: 'Client-side'
+      ip: 'Client-side',
     };
 
     // KEY FIX: We send the data as a string with a 'text/plain' header

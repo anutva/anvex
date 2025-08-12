@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, BookOpen, MessageSquare, Menu, X } from 'lucide-react';
+import { Home, BookOpen, MessageSquare, Menu, X, LogOut } from 'lucide-react';
 import { ThemeSwitcher } from './ThemeSwitcher';
+import { useAuth } from '../contexts/AuthContext';
+import { GoogleLogin } from '@react-oauth/google';
 
 const Navbar: React.FC = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
+  const { user, login, logout } = useAuth();
+  const profileMenuRef = useRef<HTMLDivElement>(null);
 
   const isActive = (path: string) => {
     return location.pathname === path;
@@ -20,6 +25,22 @@ const Navbar: React.FC = () => {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  const toggleProfileMenu = () => {
+    setIsProfileMenuOpen(!isProfileMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (profileMenuRef.current && !profileMenuRef.current.contains(event.target as Node)) {
+        setIsProfileMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <>
@@ -57,6 +78,34 @@ const Navbar: React.FC = () => {
                 </Link>
               ))}
               <ThemeSwitcher />
+              {user ? (
+                <div className="relative" ref={profileMenuRef}>
+                  <button onClick={toggleProfileMenu} className="flex items-center">
+                    <img src={user.picture} alt={user.name} className="h-8 w-8 rounded-full" />
+                  </button>
+                  {isProfileMenuOpen && (
+                    <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-dark-card rounded-md shadow-lg py-1 ring-1 ring-black ring-opacity-5">
+                      <div className="px-4 py-2 text-sm text-gray-700 dark:text-gray-200">
+                        <p className="font-semibold">{user.name}</p>
+                        <p className="truncate">{user.email}</p>
+                      </div>
+                      <div className="border-t border-gray-200 dark:border-dark-border"></div>
+                      <button
+                        onClick={() => {
+                          logout();
+                          setIsProfileMenuOpen(false);
+                        }}
+                        className="w-full text-left flex items-center px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800"
+                      >
+                        <LogOut className="w-4 h-4 mr-2" />
+                        Logout
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <GoogleLogin onSuccess={login} onError={() => console.log('Login Failed')} />
+              )}
             </div>
 
             {/* Mobile Menu Button */}
@@ -67,11 +116,7 @@ const Navbar: React.FC = () => {
                 className="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                 aria-label="Toggle menu"
               >
-                {isMobileMenuOpen ? (
-                  <X className="h-6 w-6" />
-                ) : (
-                  <Menu className="h-6 w-6" />
-                )}
+                {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
             </div>
           </div>
@@ -100,6 +145,32 @@ const Navbar: React.FC = () => {
                 {label}
               </Link>
             ))}
+            <div className="border-t border-gray-200 dark:border-dark-border my-2"></div>
+            <div className="px-3 py-2">
+              {user ? (
+                <div>
+                  <div className="flex items-center mb-2">
+                    <img src={user.picture} alt={user.name} className="h-10 w-10 rounded-full mr-3" />
+                    <div>
+                      <p className="font-semibold text-gray-800 dark:text-white">{user.name}</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">{user.email}</p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => {
+                      logout();
+                      closeMobileMenu();
+                    }}
+                    className="w-full flex items-center px-3 py-2 text-base font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                  >
+                    <LogOut className="w-5 h-5 mr-3" />
+                    Logout
+                  </button>
+                </div>
+              ) : (
+                <GoogleLogin onSuccess={login} onError={() => console.log('Login Failed')} />
+              )}
+            </div>
           </div>
         </div>
       </nav>

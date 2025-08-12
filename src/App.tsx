@@ -7,6 +7,7 @@ import DocumentsPage from './pages/DocumentsPage';
 import { ChatInterface } from './components/ChatInterface';
 import { Layout } from './components/Layout';
 import { ThemeProvider } from './contexts/ThemeContext';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/documents" element={<DocumentsPage />} />
-            <Route path="/anvex" element={<ChatInterface />} />
+            <Route element={<ProtectedRoute />}>
+              <Route path="/documents" element={<DocumentsPage />} />
+              <Route path="/anvex" element={<ChatInterface />} />
+            </Route>
           </Routes>
         </Layout>
       </Router>
