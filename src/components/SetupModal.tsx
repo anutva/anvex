@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, School, Users, BookOpen, Building, CheckCircle, User } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
 import { logToGoogleSheets } from '../utils/googleSheets';
 
 interface SetupData {
@@ -15,6 +16,7 @@ interface SetupModalProps {
 }
 
 const SetupModal: React.FC<SetupModalProps> = ({ isOpen, onComplete }) => {
+  const { user } = useAuth();
   const [formData, setFormData] = useState<SetupData>({
     schoolName: '',
     selectedClass: '',
@@ -44,7 +46,7 @@ const SetupModal: React.FC<SetupModalProps> = ({ isOpen, onComplete }) => {
     }
     setIsLoading(true);
     try {
-      await logToGoogleSheets(formData); 
+      await logToGoogleSheets({ ...formData, userEmail: user?.email });
     } catch (error) {
       console.error('Failed to log to Google Sheets:', error);
     }
