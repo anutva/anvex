@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DocumentsPage from './pages/DocumentsPage';
-import { ChatInterface } from './components/ChatInterface';
+import { ChatInterface } from './pages/anvexPage';
 import { Layout } from './components/Layout';
 import { ThemeProvider } from './contexts/ThemeContext';
 

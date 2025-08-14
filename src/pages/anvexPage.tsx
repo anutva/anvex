@@ -1,15 +1,15 @@
 import React, { useState, useRef, useEffect } from "react";
 import { MessageSquare, AlertTriangle, Menu, X, Settings } from "lucide-react";
-import { ChatMessage } from "./ChatMessage";
-import { ChatInput } from "./ChatInput";
-import { ErrorBanner } from "./ErrorBanner";
-import { ChatHistory } from "./ChatHistory";
+import { ChatMessage } from "../components/ChatMessage";
+import { ChatInput } from "../components/ChatInput";
+import { ErrorBanner } from "../components/ErrorBanner";
+import { ChatHistory } from "../components/ChatHistory";
 import { GoogleAIAPI } from "../utils/googleai";
 import { ChatHistoryManager } from "../utils/chatHistory";
 import { ANVEX_SYSTEM_PROMPT } from "../utils/systemPrompt";
 import { Message, ChatSession } from "../types";
-import SetupModal from "./SetupModal";
-import { ThemeSwitcher, MobileThemeSwitcher } from "./ThemeSwitcher";
+import SetupModal from "../components/SetupModal";
+import { ThemeSwitcher, MobileThemeSwitcher } from "../components/ThemeSwitcher";
 
 interface SetupData {
   schoolName: string;
